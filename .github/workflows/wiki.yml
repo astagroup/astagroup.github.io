@@ -19,5 +19,7 @@ jobs:
           path: .cache
       - run: pip install \
                mkdocs-material \
-               mkdocs-minify-plugin
+               mkdocs-minify-plugin \
+               mkdocs-material-extensions \
+               pymdown-extensions
       - run: mkdocs gh-deploy --force

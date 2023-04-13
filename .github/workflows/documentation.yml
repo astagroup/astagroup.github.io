@@ -59,6 +59,10 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install \
+            mkdocs-material \
+            mkdocs-minify-plugin \
+            mkdocs-material-extensions \
+            pymdown-extensions \
             "cairosvg>=2.5" \
             "mkdocs-git-committers-plugin-2>=1.1.1" \
             "mkdocs-git-revision-date-localized-plugin>=1.0" \
