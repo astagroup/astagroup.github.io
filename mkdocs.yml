@@ -19,16 +19,16 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
+site_name: Asta Group Wiki
 site_url: https://astagroup.github.io/
-site_author: Martin Donath
+site_author: Yuan Chiang
 site_description: >-
   Write your documentation in Markdown and create a professional static site in
   minutes – searchable, customizable, for all devices
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: astagroup.github.io
+repo_url: https://github.com/astagroup/astagroup.github.io
 
 # Copyright
 copyright: Copyright &copy; 2016 - 2023 Martin Donath
