@@ -87,8 +87,6 @@ plugins:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
-  - git-revision-date-localized:
-      enable_creation_date: true
   - git-committers:
       repository: astagroup/astagroup.github.io
       branch: master
