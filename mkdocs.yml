@@ -89,8 +89,10 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized:
+      enabled: true
       enable_creation_date: true
   - git-committers:
+      enabled: true
       repository: astagroup/astagroup.github.io
       branch: master
   - git-authors
