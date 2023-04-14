@@ -21,5 +21,6 @@ jobs:
                mkdocs-material \
                mkdocs-minify-plugin \
                mkdocs-material-extensions \
+               mkdocs-git-revision-date-localized-plugin \
                pymdown-extensions
       - run: mkdocs gh-deploy --force
